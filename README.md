@@ -14,9 +14,70 @@ This repository is all about my learning process. Here's what you can expect to 
 
 Go is an awesome programming language known for its simplicity, efficiency, and concurrency support. I'm excited to explore its clean syntax, powerful standard library, and vibrant community.
 
-### 🚧 Contributions
+## Go Variables
 
-While this repository is primarily for my personal learning journey, I'm open to suggestions, tips, and feedback from fellow Gophers like you. Feel free to open issues or pull requests if you spot any mistakes or have suggestions for improvement.
+<details open>
+<summary><strong>Variables in G(click here to expand)</strong></summary>
+
+#### Syntax:
+
+To declare a variable in Go, you use the `var` keyword followed by the variable name and its data type.
+
+```go
+var age int // Declaration with int type
+```
+
+To initialize a variable with a value, you can do it in the same line using the assignment operator `=`.
+
+```go
+var age int = 30 // Declaration and initialization
+```
+
+Alternatively, you can use type inference and let Go determine the type based on the value provided:
+
+```go
+var age = 30 // Type inference
+```
+
+In Go, To use shorthand notation, you use the `:=` operator to declare and initialize a variable in one step.
+
+```go
+name := "Alice" // Shorthand declaration and initialization
+```
+
+Just like regular variable declarations, Go will infer the data type based on the value provided.
+
+```go
+age := 25 // Shorthand declaration and initialization
+```
+
+#### Data Types:
+
+Go has several basic data types, including:
+
+- **int**: Integer type (e.g., 1, 42, -10)
+- **float64**: Floating-point type (e.g., 3.14, -0.001)
+- **string**: Textual data type (e.g., "hello", "world")
+- **bool**: Boolean type (e.g., true, false)
+
+#### Public and Private:
+
+In Go, variable names starting with a capital letter are exported and can be accessed from other packages. These are considered public variables.
+
+```go
+var Name string = "John" // Public variable
+```
+
+Variables starting with a lowercase letter are scoped to the package they are defined in and cannot be accessed from outside. These are considered private variables.
+
+```go
+var age int = 30 // Private variable
+```
+
+That's all for now! Have fun coding with Go! 🚀🔥
+
+</details>
+
 
 ### 📞 Let's Connect!
 
